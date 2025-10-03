@@ -1,0 +1,54 @@
+The practical part of the task involves setting up and testing a Virtual Private Network (VPN) client.
+
+Steps and Screenshots
+Choose a reputable free VPN service and sign up.
+
+Action: Choose one of the recommended tools like ProtonVPN (free tier) or Windscribe (free). Sign up for an account.
+
+Screenshot: Capture the screen showing the successful account registration or confirmation (blur any personal information).
+
+Download and install the VPN client.
+
+Action: Download the client application for your operating system (Windows, macOS, or mobile) from the official provider's website. Run the installer and follow the on-screen instructions.
+
+Screenshot: Capture a screenshot of the final installation/setup screen or the desktop icon after installation.
+
+Connect to a VPN server (choose closest or any location).
+
+Action: Launch the VPN client, log in, and select a server location (e.g., USA, Netherlands, or a nearby free server). Click the Connect button.
+
+Screenshot: Capture the VPN client interface clearly showing a "Connected" status and the server location you chose.
+
+Check that your IP address has changed (use whatismyipaddress.com).
+
+Action: Before connecting, visit a service like whatismyipaddress.com and note your real IP and location. After connecting the VPN, refresh the page.
+
+Screenshot: Capture the whatismyipaddress.com page after connecting to the VPN, showing the new, virtual IP address and location corresponding to the VPN server you chose.
+
+Browse a website to confirm traffic is encrypted.
+
+Action: Browse any non-sensitive website. The goal is to show the effect of the VPN. You can mention that modern VPNs use protocols like OpenVPN or WireGuard to encrypt all data passing through the tunnel.
+
+Deliverable Integration: This step is primarily for verification. The key deliverable is the Report describing VPN setup steps and connection status screenshot.
+
+Use Wireshark to compare encrypted and unencrypted IP.
+
+Action:
+
+Unencrypted: Disconnect the VPN. Start a Wireshark capture. Browse a website. Stop the capture. You should see your real IP address in the packet details.
+
+Encrypted: Connect the VPN. Start a new Wireshark capture. Browse the same website. Stop the capture. You should see the VPN server's IP address as the destination/source, and the payload will be encrypted (unreadable/garbled data).
+
+Screenshot: Include two distinct Wireshark window screenshots or one comparison image: one showing the packets with the real IP (unencrypted) and one showing the packets with the VPN server IP and encrypted data (unreadable protocol/payload).
+
+Research VPN encryption and privacy features.
+
+Action: Research key features like AES-256 encryption, No-Logs Policy, Kill Switch, and various tunneling protocols (OpenVPN, IKEv2, WireGuard).
+
+Deliverable Integration: This feeds directly into the report and the interview questions.
+
+Write a summary on VPN benefits and limitations.
+
+Action: Compile the research into a concise summary.
+
+Deliverable Integration: This is a key part of your report/README file.
